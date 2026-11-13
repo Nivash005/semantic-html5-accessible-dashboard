@@ -21,10 +21,10 @@ The dashboard now uses:
 
 Demo screenshots are stored in `docs/screenshots/`:
 
-- `mobile-320px.png` — compact mobile layout
-- `tablet-768px.png` — two-column responsive card/form layout
-- `desktop-1024px.png` — sidebar + main dashboard layout
-- `wide-1440px.png` — expanded desktop spacing
+- `mobile-320px.svg` — compact mobile layout
+- `tablet-768px.svg` — two-column responsive card/form layout
+- `desktop-1024px.svg` — sidebar + main dashboard layout
+- `wide-1440px.svg` — expanded desktop spacing
 
 These images are visual proof artifacts for the responsive design milestone. The table itself intentionally keeps a local horizontal scroll region when its data cannot fit without sacrificing readability.
 
@@ -73,10 +73,10 @@ The validation script sends the static HTML pages to the W3C Nu HTML Checker. Ne
 ├── docs/
 │   ├── accessibility-notes.md
 │   └── screenshots/
-│       ├── mobile-320px.png
-│       ├── tablet-768px.png
-│       ├── desktop-1024px.png
-│       └── wide-1440px.png
+│       ├── mobile-320px.svg
+│       ├── tablet-768px.svg
+│       ├── desktop-1024px.svg
+│       └── wide-1440px.svg
 ├── scripts/validate-html.mjs
 ├── src/
 │   ├── components/
